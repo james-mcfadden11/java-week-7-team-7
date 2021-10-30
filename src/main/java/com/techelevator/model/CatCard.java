@@ -5,10 +5,13 @@ import javax.validation.constraints.NotEmpty;
 public class CatCard {
 
 	public Long catCardId;
+
 	@NotEmpty
 	public String catFact;
+
 	@NotEmpty
 	public String imgUrl;
+
 	@NotEmpty
 	public String caption;
 
